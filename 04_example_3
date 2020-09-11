@@ -25,7 +25,7 @@ int toggle_state(int toggle) {
     toggle = 1;
   }
   else{
-    toggle =0;
+    toggle = 0;
   }
   return toggle;
 }
