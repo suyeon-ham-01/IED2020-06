@@ -142,7 +142,7 @@ unsigned long time_curr = millis();
 
 
   // duty_target = f(duty_neutral, control)
-    duty_target = _DUTY_NEU - control;
+    duty_target = _DUTY_NEU + control;
 
 
   // keep duty_target value within the range of [_DUTY_MIN, _DUTY_MAX]
