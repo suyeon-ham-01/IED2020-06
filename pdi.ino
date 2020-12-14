@@ -37,7 +37,7 @@
 // PID parameters
 #define _KP 2.0      // [3158] 비례상수 설정
 #define _KD 95.0     // [3159] 미분제어 상수
-#define _KI 0.005     //[3157] 적분제어 상수
+#define _KI 0.003     //[3157] 적분제어 상수
 
 //////////////////////
 // global variables //
